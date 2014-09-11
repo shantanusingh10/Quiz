@@ -1,8 +1,14 @@
+# import all Files which can be used by tkinter 
 from tkinter import *
+
+#function for correct answer
 def correct():
     lb = Label(text="Right Answer !").pack()
+    
+#function for wrong answer    
 def inc():
-    lb = Label(text="Wrong Answer").pack() 
+    lb = Label(text="Wrong Answer").pack()
+    
 obj = Tk()
 obj.title("QUIZ")
 obj.geometry("500x500")
