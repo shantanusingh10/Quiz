@@ -8,7 +8,7 @@ def correct():
 #function for wrong answer    
 def inc():
     lb = Label(text="Wrong Answer").pack()
-    
+#hulalla    
 obj = Tk()
 obj.title("QUIZ")
 obj.geometry("500x500")
